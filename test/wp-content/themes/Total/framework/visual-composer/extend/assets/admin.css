@@ -1,0 +1,53 @@
+/*
+ * Adds styling for additional visual composer elements in the backend
+ *
+ * Created by WPExplorer.com for the Total WordPress Theme
+ * Copyright 2014
+ */
+.wpb_element_label,
+.wpb-elements-list-modal .wpb-content-layouts a { -webkit-font-smoothing: antialiased; }
+
+/* Icons */
+.vc_element-icon.vcex-blog-grid { background-image: url("icons/blog-grid.png"); }
+.vc_element-icon.vcex-blog-carousel { background-image: url("icons/blog-carousel.png"); }
+.vc_element-icon.vcex-bullets { background-image: url("icons/bullets.png"); }
+.vc_element-icon.vcex-total-button { background-image: url("icons/total-button.png"); }
+.vc_element-icon.vcex-callout { background-image: url("icons/callout.png"); }
+.vc_element-icon.vcex-divider { background-image: url("icons/divider.png"); }
+.vc_element-icon.vcex-icon-box { background-image: url("icons/icon-box.png"); }
+.vc_element-icon.vcex-font-icon { background-image: url("icons/font-icon.png"); }
+.vc_element-icon.vcex-image-carousel { background-image: url("icons/image-carousel.png"); }
+.vc_element-icon.vcex-image-flexslider { background-image: url("icons/image-flexslider.png"); }
+.vc_element-icon.vcex-image-gallery-slider { background-image: url("icons/image-gallery-slider.png"); }
+.vc_element-icon.vcex-image-grid { background-image: url("icons/image-grid.png"); }
+.vc_element-icon.vcex-image-swap { background-image: url("icons/image-swap.png"); }
+.vc_element-icon.vcex-list-item { background-image: url("icons/list-item.png"); }
+.vc_element-icon.vcex-login-form { background-image: url("icons/login-form.png"); }
+.vc_element-icon.vcex-milestone { background-image: url("icons/milestone.png"); }
+.vc_element-icon.vcex-newsletter { background-image: url("icons/newsletter.png"); }
+.vc_element-icon.vcex-portfolio-carousel { background-image: url("icons/portfolio-grid.png"); }
+.vc_element-icon.vcex-portfolio-grid { background-image: url("icons/portfolio-carousel.png"); }
+.vc_element-icon.vcex-post-type-grid { background-image: url("icons/post-type-grid.png"); }
+.vc_element-icon.vcex-post-type-slider { background-image: url("icons/post-type-slider.png"); }
+.vc_element-icon.vcex-pricing { background-image: url("icons/pricing.png"); }
+.vc_element-icon.vcex-recent-news { background-image: url("icons/recent-news.png"); }
+.vc_element-icon.vcex-spacing { background-image: url("icons/spacing.png"); }
+.vc_element-icon.vcex-staff-carousel { background-image: url("icons/staff-carousel.png"); }
+.vc_element-icon.vcex-staff-grid { background-image: url("icons/staff-grid.png"); }
+.vc_element-icon.vcex-staff-social { background-image: url("icons/staff-social.png"); }
+.vc_element-icon.vcex-teaser { background-image: url("icons/teaser.png"); }
+.vc_element-icon.vcex-testimonials-grid { background-image: url("icons/testimonials-grid.png"); }
+.vc_element-icon.vcex-testimonials-slider { background-image: url("icons/testimonials-slider.png"); }
+.vc_element-icon.vcex-woocommerce-carousel { background-image: url("icons/woocommerce-carousel.png"); }
+.vc_element-icon.vcex-layerslider { background-image: url("icons/layerslider.png"); }
+.vc_element-icon.vcex-skill-bar { background-image: url("icons/skill-bar.png"); }
+.vc_element-icon.vcex-navbar { background-image: url("icons/navbar.png"); }
+.vc_element-icon.vcex-feature-box { background-image: url("icons/feature-box.png"); }
+
+/* Font Icon selector */
+.vcex-font-awesome-icon-select-window { display: block; font-size:32px; width: 100%; padding: 8px; box-sizing: border-box; -moz-box-sizing: border-box; background: #e6e6e6; height: 250px; overflow-y: scroll; border: 1px solid #DDD; clear: both; }
+.vcex-font-awesome-icon-select-window span { background:#f9f9f9;display:block;float:left;height:40px;line-height:40px;width:40px;text-align:center;padding:5px;vertical-align:middle;border:1px solid #ddd;margin:2px;cursor:pointer;box-sizing:content-box;float:left;}
+.vcex-font-awesome-icon-select-window span.active {background: #222;color:#fff;border-color: transparent;}
+.vcex-font-awesome-icon-select-window span:hover { background#fff; color:#000; border-color:#ccc; }
+.vcex-font-awesome-icon-select-window span.active:hover {background: #222;color:#fff; border-color: transparent; }
+.vcex-font-awesome-icon-preview { display: block; margin-right: 10px; height: 60px; width: 90px; text-align: center; background: #FAFAFA; font-size: 60px; padding: 15px 0; margin-bottom: 10px; border: 1px solid #DDD; float: left; box-sizing: content-box; }

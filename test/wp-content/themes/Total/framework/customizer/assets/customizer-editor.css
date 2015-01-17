@@ -1,0 +1,7 @@
+/**
+ * Theme Name:	Total
+ * Description:	CSS for customizer editor admin screen
+ * Author:		WPExplorer.co.
+ */
+.wpex-customizer-editor-table th,
+.wpex-customizer-editor-table td { padding: 7px 0; }

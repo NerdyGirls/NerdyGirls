@@ -1,0 +1,26 @@
+.wpex-skins-admin h2 {
+ 	margin-bottom: 15px;
+ }
+
+.wpex-skins-select:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    zoom: 1;
+}
+.wpex-skins-select .theme-screenshot img {
+	display: block;
+	position: relative;
+}
+.wpex-skins-select .theme-screenshot:hover img {
+	opacity: 0.75;
+}
+.wpex-skin-radio {
+	display: none !important;
+}
+.wpex-skins-admin p.submit {
+	margin: 0;
+	padding: 0;
+}

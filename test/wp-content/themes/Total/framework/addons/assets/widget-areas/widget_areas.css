@@ -1,0 +1,91 @@
+#wpex-add-widget h3 {
+	text-align:center !important;
+	padding: 15px 7px;
+	font-size: 1.3em;
+	margin-top: 5px;
+}
+
+div#widgets-right .sidebar-wpex-custom .widgets-sortables {
+	padding-bottom: 45px;
+}
+
+div#widgets-right .sidebar-wpex-custom.closed .widgets-sortables {
+	padding-bottom: 0;
+}
+
+.wpex-widget-area-edit {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 40px;
+	line-height: 40px;
+	width: 100%;
+	border-top: 1px solid #eee;
+}
+
+div#widgets-right .sidebar-wpex-custom.closed .widgets-sortables .wpex-widget-area-edit {
+	display: none;
+}
+
+.wpex-widget-area-edit .wpex-widget-area-delete{
+	display: block;
+	float: right;
+	margin: 11px 8px 0 0;
+}
+
+.wpex-widget-area-edit .wpex-widget-area-delete-confirm {
+	display: none;
+	float: right;
+	margin: 11px 8px 0 0;
+}
+
+.wpex-widget-area-edit .wpex-widget-area-delete-cancel {
+	display: none;
+	float: right;
+	margin: 11px 8px 0 0;
+}
+
+.wpex-widget-area-delete-confirm:hover:before {
+	color: red;
+}
+
+.wpex-widget-area-delete-confirm:hover {
+	color: #000;
+}
+
+.wpex-widget-area-delete:hover:before{
+	color: #888;
+}
+
+.activate_spinner{
+	display: block !important;
+	position: absolute;
+	top: 10px;
+	right: 4px;
+	background-color: #ECECEC;
+}
+
+#wpex-add-widget form {
+	text-align: center;
+}
+
+#widget_area-wpex-custom, #widget_area-wpex-custom h3 {
+	position: relative;
+}
+
+#wpex-add-widget p {
+	margin-top: 0;
+}
+#wpex-add-widget {
+	margin: 10px 0 0;
+	position: relative;
+}
+
+#wpex-add-widget-input { 
+	max-width: 95%; 
+	padding: 8px;
+	margin-bottom: 14px;
+	margin-top:3px;
+	text-align: center;
+}

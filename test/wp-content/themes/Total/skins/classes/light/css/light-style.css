@@ -1,0 +1,151 @@
+/**
+ * Theme Name: Total
+ * Description: Light Skin CSS
+ * Author: WPExplorer
+ */
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS
+----------------------------------------------------------------
+1.0 - General
+1.1 - Typography
+2.0 - Top Bar
+3.0 - Header
+4.0 - Page Header
+5.0 - Navigation
+6.0 - Buttons & Forms
+7.0 - Blog
+8.0 - Sidebar
+9.0 - Pagination
+10.0 - Visual Composer
+11.0 - Portfolio
+12.0 - Staff
+13.0 - Footer
+14.0 - WooCommerce
+15.0 - Foooter
+16.0 - Other
+
+/*--------------------------------------------------------------
+1.0 - General
+--------------------------------------------------------------*/
+body { -webkit-font-smoothing: antialiased; line-height: 1.6em; font-size: 14px; }
+/*--------------------------------------------------------------
+1.1 - Typography
+--------------------------------------------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+#sidebar .widget-title,
+#sidebar .wpex-widget-recent-posts-title { color: #333 }
+#sidebar .wpex-widget-recent-posts-title:hover { color: #555 }
+pre { box-shadow: none; background: #f7f7f7; color: #333; border: none; font-size: 14px; }
+/*--------------------------------------------------------------
+2.0 - Top Bar
+--------------------------------------------------------------*/
+#top-bar-wrap { background: #f8f8f8 }
+/*--------------------------------------------------------------
+3.0 - Header
+--------------------------------------------------------------*/
+#searchform-header-replace input { color: #888 }
+.is-sticky #site-header { border-bottom: none; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+/*--------------------------------------------------------------
+4.0 - Page Header
+--------------------------------------------------------------*/
+.page-header { padding: 30px 0; border-color: #eee; }
+.page-header-title { font-weight: bold; font-weight: 600; font-size: 18px; color: #333; letter-spacing: 1px; text-transform: uppercase; }
+.centered-page-header .page-header-title { font-size: 21px }
+.page-subheading { margin-top: 5px }
+/*breadcrumbs*/
+.site-breadcrumbs a:hover { text-decoration: none; color: #888; }
+/*--------------------------------------------------------------
+5.0 - Navigation
+--------------------------------------------------------------*/
+#site-navigation .dropdown-menu > li > a { font-size: 12px; color: #999; text-transform: uppercase; letter-spacing: 1px; font-weight: bold; font-weight: 600; }
+#site-navigation .dropdown-menu > li > a:hover { color: #000 }
+#site-navigation .dropdown-menu > .current-menu-item > a { color: #000; text-decoration: none; }
+.navbar-style-one .dropdown-menu ul a:hover { color: #000 }
+.nav-custom-height.navbar-style-one .dropdown-menu ul { box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none; border: 1px solid #ddd; }
+body #site-navigation-wrap.nav-dropdown-top-border .dropdown-menu > li > ul,
+#searchform-dropdown,
+#current-shop-items-dropdown { border-top-color: #888 }
+/*--------------------------------------------------------------
+6.0 - Buttons & Forms
+--------------------------------------------------------------*/
+.theme-button,
+#footer-callout .theme-button { background: #888 }
+.theme-button:hover,
+#footer-callout .theme-button:hover { background: #777 }
+.theme-button:active,
+#footer-callout .theme-button:active { background: #444 }
+/*--------------------------------------------------------------
+7.0 - Blog
+--------------------------------------------------------------*/
+.blog-entry.large-image-entry-style .blog-entry-title { font-weight: bold; font-weight: 600; }
+.blog-entry.large-image-entry-style { padding-bottom: 0; border-bottom: 0; margin-bottom: 60px; }
+/*quote*/
+.blog-entry.large-image-entry-style.format-quote { padding: 30px }
+.blog-entry.large-image-entry-style.format-quote .quote-entry-author { font-weight: bold; font-weight: 600; color: #333; text-decoration: none; text-transform: uppercase; letter-spacing: 1px; font-size: 11px; }
+/*--------------------------------------------------------------
+8.0 - Sidebar
+--------------------------------------------------------------*/
+#sidebar .widget-title { margin-bottom: 15px }
+.sidebar-box { margin-bottom: 40px; padding-bottom: 0; }
+.wpex-widget-recent-posts-li:first-child,
+.widget_categories li:first-child,
+.widget_recent_entries li:first-child,
+.widget_archive li:first-child,
+.widget_recent_comments li:first-child,
+.widget_product_categories li:first-child,
+.widget_layered_nav li:first-child,
+.widget-recent-posts-icons li:first-child,
+.wpex-recent-comments-widget li:first-child { border-top: none; padding-top: none; }
+.wpex-widget-recent-posts-li:last-child,
+.widget_categories li:last-child,
+.widget_recent_entries li:last-child,
+.widget_archive li:last-child,
+.widget_recent_comments li:last-child,
+.widget_product_categories li:last-child,
+.widget_layered_nav li:last-child,
+.widget-recent-posts-icons li:last-child,
+.wpex-recent-comments-widget li:last-child { padding-bottom: 0; border-bottom: none; }
+.wpex-widget-recent-posts-li:first-child { padding-top: 0 }
+/*--------------------------------------------------------------
+9.0 - Pagination
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+10.0 - Visual Composer
+--------------------------------------------------------------*/
+body .vc_text_separator_two span { border-color: #888 }
+/*filter & navbar*/
+.vcex-filter-links a,
+.vcex-navbar.style-buttons a { border: none; background: #eee; color: #555; padding: 4px 15px; transition: all .25s ease-in-out; -moz-transition: all .25s ease-in-out; -webkit-transition: all .25s ease-in-out; -o-transition: all .25s ease-in-out; }
+.vcex-filter-links a:hover,
+.vcex-filter-links li.active a,
+.vcex-navbar.style-buttons a:hover,
+.vcex-navbar.style-buttons a.active { color: #fff; background: #777; }
+.vcex-filter-links li.active a,
+.vcex-navbar.style-buttons a.active { box-shadow: inset 0 1px 2px rgba(0,0,0,0.5) }
+/*--------------------------------------------------------------
+11.0 - Portfolio
+--------------------------------------------------------------*/
+.portfolio-entry-details { border: none; background: none; padding: 20px 0 0; }
+/*--------------------------------------------------------------
+12.0 - Staff
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+13.0 - Footer
+--------------------------------------------------------------*/
+.footer-callout-content { color: #555; font-weight: bold; font-weight: 600; line-height: 1.65em; font-size: 16px; }
+/*--------------------------------------------------------------
+14.0 - WooCommerce
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+15.0 - Foooter
+--------------------------------------------------------------*/
+#footer-callout-wrap { border-top-color: #eee }
+/*--------------------------------------------------------------
+16.0 - Other
+--------------------------------------------------------------*/
+#site-scroll-top:hover { background: #999; color: #fff; border-color: #999; }

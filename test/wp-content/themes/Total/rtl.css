@@ -1,0 +1,80 @@
+/*
+ * Theme Name: Total
+ * Description: Adds support for languages written in a Right To Left (RTL) direction.
+ * Author: WPExplorer
+ */
+/*--------------------------------------------------------------
+- General & Commons
+--------------------------------------------------------------*/
+body { direction: rtl; unicode-bidi: embed; }
+.col,
+.top-bar-left,
+.header-one-logo,
+.sf-menu > li,
+ul.page-numbers li,
+.vcex-portfolio-filter li,
+.vcex-testimonials-filter li,
+.vcex-staff-filter li,
+.vcex-blog-filter li,
+.staff-social a,
+.social-share-buttons.position-horizontal li,
+.wpex-social-widget-output li,
+.testimonial-entry-meta { float: right }
+.top-bar-right { float: left }
+.theme-heading span { padding-left: 15px; padding-right: 0; }
+.wpex-social-widget-output li,
+.social-share-buttons.position-horizontal li,
+.social-share-buttons.position-horizontal li .fa { margin-right: 0; margin-left: 5px; }
+/*--------------------------------------------------------------
+- Header
+--------------------------------------------------------------*/
+.navbar-style-one { right: auto; left: -12px; }
+#site-navigation .sf-menu li a .fa { margin-right: 0; margin-left: 8px; }
+.site-breadcrumbs { left: 0; right: auto; }
+.site-breadcrumbs .breadcrumb-trail > span { display: block; float: right; margin-left: 5px; }
+.site-breadcrumbs .breadcrumb-trail > span:last-child { margin-left: 0 }
+/* Search & Shop */
+#current-shop-items-dropdown,
+#searchform-dropdown { right: auto; left: 0; }
+/* Arrows */
+#site-navigation .sf-menu > li ul li .nav-arrow { right: auto; left: 0; }
+.navbar-style-one .dropdown-menu ul a.sf-with-ul { padding-left: 25px; padding-right: 12px; }
+/*--------------------------------------------------------------
+- Sidebar
+--------------------------------------------------------------*/
+.wpex-widget-recent-posts-li { padding-left: 0; padding-right: 85px; }
+.wpex-widget-recent-posts-thumbnail { right: 0; left: auto; }
+/*--------------------------------------------------------------
+- Footer
+--------------------------------------------------------------*/
+#footer-callout-left { float: right; margin-left: 0; }
+#footer-callout-right { float: left; margin-left: 0; margin-right: 2%; }
+.sidebar-widget-icons .widget_archive a:before,
+.sidebar-widget-icons .widget_recent_entries a:before,
+.sidebar-widget-icons .widget_recent_comments a:before,
+.sidebar-widget-icons .widget_layered_nav a:before,
+.sidebar-widget-icons .widget_product_categories a:before,
+.sidebar-widget-icons .widget_categories a:before { margin-right: 0; margin-left: 10px; }
+#footer-bottom-menu { left: 0; right: auto; }
+#footer-bottom-menu ul li { float: right }
+#footer-bottom-menu ul li:first-child { margin-left: 20px }
+#footer-bottom-menu ul li:last-child { margin: 0 }
+/*--------------------------------------------------------------
+- Visual Composer
+--------------------------------------------------------------*/
+.vcex-portfolio-filter li:last-child,
+.vcex-testimonials-filter li:last-child,
+.vcex-staff-filter li:last-child,
+.vcex-blog-filter li:last-child { margin-right: 5px }
+/* Staff*/
+.testimonial-caret { left: auto; right: 10px; }
+.staff-social a:first-child { margin-left: 5px }
+.testimonial-entry-thumb { float: right; margin-right: 0; margin-left: 20px; }
+/*--------------------------------------------------------------
+- Responsive
+--------------------------------------------------------------*/
+#mobile-menu { left: 0; right: auto; }
+#mobile-menu a { float: right; margin-left: 0; margin-right: 10px; }
+@media only screen and (max-width: 959px) { 
+	.header-one #site-logo { float: right }
+}
