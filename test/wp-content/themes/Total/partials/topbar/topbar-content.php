@@ -36,6 +36,6 @@ $content = wpex_translate_theme_mod( 'top_bar_content', $content );
 // Display topbar content
 if ( $content ) : ?>
 	<div id="top-bar-content" class="clr <?php echo $classes; ?>">
-		<?php echo do_shortcode( $content ); ?>
+		<!--<?php echo do_shortcode( $content ); ?> -->
 	</div><!-- #top-bar-content -->
 <?php endif; ?>
