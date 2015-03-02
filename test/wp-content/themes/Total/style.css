@@ -89,6 +89,7 @@ ul.page-numbers:after { content: ""; display: block; height: 0; clear: both; vis
 /*add bottom padding to primary div but remove if the Visual Composer is enabled on the page*/
 #primary { padding-bottom: 40px; }
 body.has-composer #primary, body.compose-mode #primary, body.single-product #primary, body.single-post #primary { padding-bottom: 0; }
+#main { background-color: #ffffff; opacity:1;}
 
 /*--------------------------------------------------------------
 - Boxed Layout
@@ -724,7 +725,7 @@ body #site-navigation .sf-menu li.left-dropdowns ul a.sf-with-ul { padding-left:
 /*--------------------------------------------------------------
 - Main Header Style
 --------------------------------------------------------------*/
-#site-header { position: relative; }
+#site-header { position: relative; height: 300px;}
 .footer-has-reveal #site-header { background: #fff; }
 #site-header-inner { position: relative; padding-top: 30px; padding-bottom: 30px; }
 #site-navigation.container { position: relative; }
@@ -733,7 +734,7 @@ body #site-navigation .sf-menu li.left-dropdowns ul a.sf-with-ul { padding-left:
 #site-logo a { max-width: 100%; padding: 0px; margin: 0px; text-decoration: none; color: #222; font-size: 24px; margin: 0; font-weight: bold; }
 #site-logo a .fa { margin-right: 10px; }
 #site-logo a:hover { text-decoration: none }
-#site-logo img { display: inline; max-height: 100%; max-width: 100%; vertical-align: middle; }
+#site-logo img { display: inline; position: fixed; max-height: 100%; max-width: 100%; vertical-align: middle; }
 
 /*fixed header*/
 #site-header.fixed-header { width: 100%; top: 0px; left: 0px; position: fixed; background: none; z-index: 9998; box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.22); -moz-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.22); -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.22); }
